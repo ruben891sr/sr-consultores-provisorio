@@ -29,7 +29,7 @@
   },
   "notification.bar#home": {
     "props": {
-      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
+      "content": "Algunos de nuestros principales clientes"
     }
   },
   "flex-layout.row#3-desktop": {
@@ -92,7 +92,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "url": "assets/img/logo-sr.png",
       "width": "180"
     }
   },
@@ -136,8 +136,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-      "width": "70"
+      "url": "assets/img/logo-sr.png",
+      "width": "180"
     }
   }
 }

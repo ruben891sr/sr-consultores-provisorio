@@ -18,21 +18,27 @@
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
-      "height": 720,
+      "height": 600,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "assets/img/slider.jpg",
+          "mobileImage": "assets/img/slider-mobile.jpg"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "assets/img/slider.jpg",
+          "mobileImage": "assets/img/slider-mobile.jpg"
         }
+        // {
+        //   "image": "assets/img/slider-04.jpg",
+        //   "mobileImage": "assets/img/slider-04.jpg"
+        // }
       ]
     }
   },
   "slider-layout#demo-images": {
     "props": {
+      "fullWidth": true,
+      "max-width": "100%",
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,
@@ -51,7 +57,8 @@
     }
   },
   "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
+    "children":["shelf"]
+    // "children": ["list-context.product-list#demo1"]
   },
   "list-context.product-list#demo1": {
     "blocks": ["product-summary.shelf"],
@@ -78,9 +85,9 @@
       "id": "info-card-home",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
+      "imageUrl": "assets/img/infoCard-1.jpg",
+      "headline": "Nuestra Tecnología",
+      "callToActionText": "Descubre",
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-home",
       "textAlignment": "center"

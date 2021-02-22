@@ -17,15 +17,12 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/accesorios/baterias",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": " Baterias",
+        "text": " Baterías"
       }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
-    ]
+    }
   },
   "vtex.menu@2.x:submenu#category-apparel": {
     "props": {
@@ -98,10 +95,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/Calzado/Motores-Electricos",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "Motores Eléctricos",
+        "text": "Motores Eléctricos"
       }
     }
   },
@@ -160,14 +157,14 @@
     "props": {
       "id": "menu-item-about-us",
       "type": "custom",
-      "iconId": null,
+      "iconId": null, 
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "/about-us",
         "noFollow": true,
         "tagTitle": "About us",
-        "text": "About us"
+        "text": "Sobre Nosotros"
       }
     }
   },
