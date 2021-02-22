@@ -1,0 +1,19 @@
+{
+    "shelf": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+            "visibleVariations": ["Talla", "Color"],
+            "category": 12,
+            "orderBy": "OrderByTopSaleDESC",
+            "blockClass": "vitrinaHome",
+            "productList": {
+                "maxItems": 12,
+                "itemsPerPage": 5,
+                "minItemsPerPage": 2,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Productos"
+            }
+        }
+    }
+}
